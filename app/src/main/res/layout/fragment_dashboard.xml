@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:src="@drawable/musicstore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+    <TextView
+        android:text="All Products"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="10dp">
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="6dp"
+            android:layout_margin="10dp">
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="10dp">
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="6dp"
+            android:layout_margin="10dp">
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="160dp"-->
+<!--        app:cardCornerRadius="6dp"-->
+<!--        android:layout_margin="16dp">-->
+<!--        <TextView-->
+<!--            android:text="Guitars"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <LinearLayout-->
+<!--            android:paddingLeft="7dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent">-->
+<!--            <ImageView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/acousticguitar"-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="75dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="Acoustic Guitar"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="380dp"-->
+<!--            android:layout_height="match_parent">-->
+<!--            <ImageView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/electricguitar"-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="75dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="Electric Guitar"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="640dp"-->
+<!--            android:layout_height="match_parent">-->
+<!--            <ImageView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/soundfactory"-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="75dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="Electric Guitar"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+<!--        <Button-->
+<!--            android:text="View more>>"-->
+<!--            android:gravity="right"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="160dp"-->
+<!--            app:cardCornerRadius="6dp"-->
+<!--            android:layout_margin="16dp">-->
+<!--            <TextView-->
+<!--                android:text="Drumsets"-->
+<!--                android:textSize="30dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            <LinearLayout-->
+<!--                android:paddingLeft="7dp"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent">-->
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/acousticdrumset"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="Acoustic Drumset"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="380dp"-->
+<!--                android:layout_height="match_parent">-->
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/electronicdrumset"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="Electric Drumset"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="640dp"-->
+<!--                android:layout_height="match_parent">-->
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/soundfactory"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="Electric Guitar"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+<!--            <Button-->
+<!--                android:text="View more>>"-->
+<!--                android:gravity="right"-->
+<!--                android:layout_gravity="end"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="160dp"-->
+<!--            app:cardCornerRadius="6dp"-->
+<!--            android:layout_margin="16dp">-->
+<!--            <TextView-->
+<!--                android:text="Piano"-->
+<!--                android:textSize="30dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            <LinearLayout-->
+<!--                android:paddingLeft="7dp"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent">-->
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/electronicpiano"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="Digital Piano"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="380dp"-->
+<!--                android:layout_height="match_parent">-->
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/electronicdrumset"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="Electric Drumset"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="640dp"-->
+<!--                android:layout_height="match_parent">-->
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/soundfactory"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="Electric Guitar"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+<!--            <Button-->
+<!--                android:text="View more>>"-->
+<!--                android:gravity="right"-->
+<!--                android:layout_gravity="end"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
